@@ -1,0 +1,9 @@
+/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/bin/Debug/netstandard2.0/PizzaShop.deps.json
+/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/bin/Debug/netstandard2.0/PizzaShop.dll
+/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/bin/Debug/netstandard2.0/PizzaShop.pdb
+/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/obj/Debug/netstandard2.0/PizzaShop.csprojAssemblyReference.cache
+/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/obj/Debug/netstandard2.0/PizzaShop.csproj.CoreCompileInputs.cache
+/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/obj/Debug/netstandard2.0/PizzaShop.AssemblyInfoInputs.cache
+/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/obj/Debug/netstandard2.0/PizzaShop.AssemblyInfo.cs
+/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/obj/Debug/netstandard2.0/PizzaShop.dll
+/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/obj/Debug/netstandard2.0/PizzaShop.pdb
