@@ -12,20 +12,47 @@ namespace PizzaShop
         public List<string> toppings = new List<string>();
         public int basePrice;
         public int toppingsPrice;
+
         public MenuItem(ItemType _item, Size _size)
         {
             this.item = _item;
             this.size = _size;
-
         }
-        public void setSize(Size _size) => this.size = _size;
+
+        public void setSize(Size sizeToSet) {
+            switch (item)
+            {
+                case ItemType.Calzone:
+                    switch (sizeToSet)
+                    {
+                        case Size.Small: size = Size.Half; break;
+                        case Size.Half: size = Size.Half; break;
+                        default: size = Size.Full; break;
+                    }
+                    break;
+                case ItemType.Pizza:
+                    switch(sizeToSet)
+                    {
+                        case Size.Half: size = Size.Small; break;
+                        case Size.Small: size = Size.Small; break;
+                        case Size.Medium: size = Size.Medium; break;
+                        default: size = Size.Large; break;
+                    }
+                    break;
+            }
+        } 
+
+        public void setMenuItem(ItemType itemToSet)
+        {
+            this.item = itemToSet;
+            setSize(this.size);
+        }
         public void addTopping(String topping) => toppings.Add(topping);
         public int getPrice()
         {
             basePrice = getBasePrice();
             toppingsPrice = (int) Math.Round(getToppingsPrice());
             return basePrice + toppingsPrice;
-
         }
 
         public int getBasePrice()
@@ -39,7 +66,6 @@ namespace PizzaShop
                 case Size.Full: return 1500;
                 default: return 1800;
             }
-            
         }
         public double getToppingsPrice() => getToppingRate() * toppings.Count;
 
@@ -51,7 +77,6 @@ namespace PizzaShop
                 case Size.Medium: return getBasePrice() * 0.15;
                 case Size.Large: return getBasePrice() * 0.18;
                 default: return getBasePrice() * 0.32;
-    
             }
         }
 
@@ -85,8 +110,6 @@ namespace PizzaShop
             }
 
             return description + ending;
-
-            
         }
     }
 }

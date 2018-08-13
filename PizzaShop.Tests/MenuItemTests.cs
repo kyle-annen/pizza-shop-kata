@@ -50,8 +50,11 @@ namespace Tests
             pizza.setSize(Size.Large);
             Assert.AreEqual(2124, pizza.getPrice());
 
+            pizza.setSize(Size.Full);
+            Assert.AreEqual(2124, pizza.getPrice());
+
             pizza.setSize(Size.Half);
-            Assert.AreEqual(1188, pizza.getPrice());
+            Assert.AreEqual(990, pizza.getPrice());
         }
 
         [Test]
@@ -91,6 +94,12 @@ namespace Tests
             calzone.setSize(Size.Full);
             Assert.AreEqual(
                 "full calzone with mushrooms, bell peppers, and cherry tomatoes",
+                calzone.getDescription()
+            );
+
+            calzone.setMenuItem(ItemType.Pizza);
+            Assert.AreEqual(
+                "large pizza with mushrooms, bell peppers, and cherry tomatoes",
                 calzone.getDescription()
             );
         }
