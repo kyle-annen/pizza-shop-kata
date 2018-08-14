@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PizzaShop
+namespace PizzaShopRev1
 {
     public enum ItemType {Pizza, Calzone};
     public enum Size {Small, Medium, Large, Half, Full};

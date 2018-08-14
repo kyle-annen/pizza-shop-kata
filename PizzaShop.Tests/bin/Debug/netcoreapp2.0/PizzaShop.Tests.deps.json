@@ -19,10 +19,7 @@
       },
       "Microsoft.CodeCoverage/1.0.3": {
         "runtime": {
-          "lib/netstandard1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.0.26228.0"
-          }
+          "lib/netstandard1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.1": {
@@ -57,10 +54,7 @@
           "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {}
         }
       },
       "Microsoft.DotNet.PlatformAbstractions/1.0.3": {
@@ -75,10 +69,7 @@
           "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
-          }
+          "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyModel/1.0.3": {
@@ -90,10 +81,7 @@
           "System.Linq": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
-          }
+          "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
       "Microsoft.NET.Test.Sdk/15.7.2": {
@@ -120,18 +108,9 @@
           "System.Xml.XPath.XmlDocument": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.5/Microsoft.TestPlatform.CoreUtilities.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.0.0.0"
-          },
-          "lib/netstandard1.5/Microsoft.TestPlatform.PlatformAbstractions.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.0.0.0"
-          },
-          "lib/netstandard1.5/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.0.0.0"
-          }
+          "lib/netstandard1.5/Microsoft.TestPlatform.CoreUtilities.dll": {},
+          "lib/netstandard1.5/Microsoft.TestPlatform.PlatformAbstractions.dll": {},
+          "lib/netstandard1.5/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll": {}
         },
         "resources": {
           "lib/netstandard1.5/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll": {
@@ -221,22 +200,10 @@
           "Newtonsoft.Json": "9.0.1"
         },
         "runtime": {
-          "lib/netstandard1.5/Microsoft.TestPlatform.CommunicationUtilities.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.0.0.0"
-          },
-          "lib/netstandard1.5/Microsoft.TestPlatform.CrossPlatEngine.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.0.0.0"
-          },
-          "lib/netstandard1.5/Microsoft.VisualStudio.TestPlatform.Common.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.0.0.0"
-          },
-          "lib/netstandard1.5/testhost.dll": {
-            "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.0.0.0"
-          }
+          "lib/netstandard1.5/Microsoft.TestPlatform.CommunicationUtilities.dll": {},
+          "lib/netstandard1.5/Microsoft.TestPlatform.CrossPlatEngine.dll": {},
+          "lib/netstandard1.5/Microsoft.VisualStudio.TestPlatform.Common.dll": {},
+          "lib/netstandard1.5/testhost.dll": {}
         },
         "resources": {
           "lib/netstandard1.5/cs/Microsoft.TestPlatform.CommunicationUtilities.resources.dll": {
@@ -411,18 +378,12 @@
           "System.Xml.XDocument": "4.0.11"
         },
         "runtime": {
-          "lib/netstandard1.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.1.19813"
-          }
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
       "NUnit/3.10.1": {
         "runtime": {
-          "lib/netstandard2.0/nunit.framework.dll": {
-            "assemblyVersion": "3.10.1.0",
-            "fileVersion": "3.10.1.0"
-          }
+          "lib/netstandard2.0/nunit.framework.dll": {}
         }
       },
       "NUnit3TestAdapter/3.10.0": {
@@ -1053,10 +1014,7 @@
           "System.Xml.XmlDocument": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.6.24705.1"
-          }
+          "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
       "PizzaShop/1.0.0": {

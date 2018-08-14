@@ -11,7 +11,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.3": {
+      "NETStandard.Library/2.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -42,13 +42,14 @@
         "runtime.json"
       ]
     },
-    "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+    "NETStandard.Library/2.0.1": {
+      "sha512": "oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "type": "package",
-      "path": "netstandard.library/2.0.3",
+      "path": "netstandard.library/2.0.1",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -165,34 +166,34 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.3.nupkg.sha512",
+        "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.1"
     ]
   },
   "packageFolders": {
-    "/Users/kyleannen/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/home/kyle/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/PizzaShop.csproj",
+      "projectUniqueName": "/home/kyle/code/c#/pizza-shop-kata/PizzaShop/PizzaShop.csproj",
       "projectName": "PizzaShop",
-      "projectPath": "/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/PizzaShop.csproj",
-      "packagesPath": "/Users/kyleannen/.nuget/packages/",
-      "outputPath": "/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/obj/",
+      "projectPath": "/home/kyle/code/c#/pizza-shop-kata/PizzaShop/PizzaShop.csproj",
+      "packagesPath": "/home/kyle/.nuget/packages/",
+      "outputPath": "/home/kyle/code/c#/pizza-shop-kata/PizzaShop/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/kyleannen/.nuget/NuGet/NuGet.Config"
+        "/home/kyle/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -217,7 +218,7 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.3, )",
+            "version": "[2.0.1, )",
             "autoReferenced": true
           }
         },
