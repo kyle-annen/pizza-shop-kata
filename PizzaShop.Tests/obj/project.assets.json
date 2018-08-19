@@ -5655,23 +5655,23 @@
     ]
   },
   "packageFolders": {
-    "/home/kyle/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/kyleannen/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kyle/code/c#/pizza-shop-kata/PizzaShop.Tests/PizzaShop.Tests.csproj",
+      "projectUniqueName": "/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop.Tests/PizzaShop.Tests.csproj",
       "projectName": "PizzaShop.Tests",
-      "projectPath": "/home/kyle/code/c#/pizza-shop-kata/PizzaShop.Tests/PizzaShop.Tests.csproj",
-      "packagesPath": "/home/kyle/.nuget/packages/",
-      "outputPath": "/home/kyle/code/c#/pizza-shop-kata/PizzaShop.Tests/obj/",
+      "projectPath": "/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop.Tests/PizzaShop.Tests.csproj",
+      "packagesPath": "/Users/kyleannen/.nuget/packages/",
+      "outputPath": "/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/kyle/.nuget/NuGet/NuGet.Config"
+        "/Users/kyleannen/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -5682,8 +5682,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/home/kyle/code/c#/pizza-shop-kata/PizzaShop/PizzaShop.csproj": {
-              "projectPath": "/home/kyle/code/c#/pizza-shop-kata/PizzaShop/PizzaShop.csproj"
+            "/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/PizzaShop.csproj": {
+              "projectPath": "/Users/kyleannen/code/c#/pizza-shop-kata/PizzaShop/PizzaShop.csproj"
             }
           }
         }
